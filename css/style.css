@@ -183,6 +183,9 @@ a{
   margin-bottom: 25px;
   
 }
+.slick-next, .slick-prev {
+  display: none !important;
+}
 
   
 
@@ -272,6 +275,7 @@ a{
 .need-item{
   width: 507px;
   margin-bottom: 47px;
+  
 }
 .need-tex{
   margin-bottom: 79px;
@@ -290,6 +294,7 @@ a{
 }
 .need-items{
   padding: 17px 30px;
+  padding-left: 12px;
 
 }
 .statistic-span{
@@ -363,6 +368,7 @@ a{
   background: #FFFFFF;;
   padding: 70px;
   
+
 }
 .plan-texts{
   line-height: 250%;
@@ -376,9 +382,30 @@ a{
   color: #000000;
 
 }
-.all:hover{
-  background: #FFFFFF;
+.btn1{
+  background: rgba(242, 88, 34, 0.25);
+  border-radius: 30px;
+  padding: 12px 27px;  
+  color:#F25822 ;
+  transition: all 0.5s ease;
+  display: inline-block;
+  font-family: Gilroy-SemiBold;
+  transition: all 0.4s ease; 
+}
+.btn1:hover{
+  background-color:#F25822;
+  color: #FFFFFF;
+}
+.plan-items{
   transition: all 0.4s ease;
+  
+}
+.plan-items:hover{
+  background: #FFFFFF;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-top: -45px;
+  margin-bottom: -45px;
   box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.07);  
 }
 .pad{
@@ -436,6 +463,7 @@ a{
 }
 .clients-item{
   width: 570px;
+  margin: 0 15px;
 }
 .clients-sours{
   width: 91px;
@@ -452,6 +480,22 @@ a{
 }
 .our-clients{
   padding-bottom: 157px;
+
+}
+
+.news-content {
+  width: 770px;
+  display: flex !important;
+  margin:0 auto;
+}
+
+.carousel-div{
+  width: 100%;
+}
+
+.wrapper {
+  width: 1400px;
+  margin: 0 auto;
 }
 .slider-item{
   width: 8px;
@@ -503,9 +547,7 @@ a{
   display: inline-block;
   margin-top: 26px;
 }
-.news-content{
-  width: 770px;
-}
+
 .news-content:hover{
   box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
 }
@@ -550,4 +592,26 @@ a{
 }
 .last-text{
   padding-bottom: 19px;
+}
+
+.slick-dots li{
+  border-radius: 50%;
+  
+}
+.slick-dots li.slick-active button {
+  border-radius: 50%;
+  background-color: #F25822;
+  border: 2px solid #F25822;
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  border: none;
+  padding: 1rem 0;
+  list-style-type: none;
+} 
+.slick-dots li button {
+    border: 2px solid #F25822;
+    border-radius: 100%;
 }
